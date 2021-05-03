@@ -987,8 +987,6 @@ namespace easy3d {
                 draw();
                 post_draw();
                 glfwSwapBuffers(window_);
-
-                glfwWaitEvents();
             }
 
             /* Process events once more */
