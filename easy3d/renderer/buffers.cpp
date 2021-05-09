@@ -308,7 +308,7 @@ namespace easy3d {
                         tessellator.end_contour();
                         tessellator.end_polygon();
 
-                        std::size_t num = tessellator.num_elements_in_polygon();
+                        auto num = tessellator.num_elements_in_polygon();
                         triangle_range[face] = std::make_pair(count_triangles, count_triangles + num - 1);
                         count_triangles += num;
 
@@ -986,7 +986,7 @@ namespace easy3d {
                         tessellator.end_contour();
                         tessellator.end_polygon();
 
-                        std::size_t num = tessellator.num_elements_in_polygon();
+                        auto num = tessellator.num_elements_in_polygon();
                         triangle_range[face] = std::make_pair(count_triangles, count_triangles + num - 1);
                         count_triangles += num;
                     }
@@ -1099,7 +1099,7 @@ namespace easy3d {
                         tessellator.end_contour();
                         tessellator.end_polygon();
 
-                        std::size_t num = tessellator.num_elements_in_polygon();
+                        auto num = tessellator.num_elements_in_polygon();
                         triangle_range[face] = std::make_pair(count_triangles, count_triangles + num - 1);
                         count_triangles += num;
                     }
@@ -1207,7 +1207,7 @@ namespace easy3d {
                         tessellator.end_contour();
                         tessellator.end_polygon();
 
-                        std::size_t num = tessellator.num_elements_in_polygon();
+                        auto num = tessellator.num_elements_in_polygon();
                         triangle_range[face] = std::make_pair(count_triangles, count_triangles + num - 1);
                         count_triangles += num;
                     }
@@ -1317,7 +1317,7 @@ namespace easy3d {
                         tessellator.end_contour();
                         tessellator.end_polygon();
 
-                        std::size_t num = tessellator.num_elements_in_polygon();
+                        auto num = tessellator.num_elements_in_polygon();
                         triangle_range[face] = std::make_pair(count_triangles, count_triangles + num - 1);
                         count_triangles += num;
                     }
@@ -1435,7 +1435,7 @@ namespace easy3d {
                         tessellator.end_contour();
                         tessellator.end_polygon();
 
-                        std::size_t num = tessellator.num_elements_in_polygon();
+                        auto num = tessellator.num_elements_in_polygon();
                         triangle_range[face] = std::make_pair(count_triangles, count_triangles + num - 1);
                         count_triangles += num;
                     }

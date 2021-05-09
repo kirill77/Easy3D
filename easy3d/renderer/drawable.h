@@ -119,7 +119,7 @@ namespace easy3d {
 
         ///@}
 
-        unsigned int num_vertices() const { return num_vertices_; }
+        unsigned int num_vertices() const { return (int)num_vertices_; }
 
         /// \name Rendering
         ///@{
