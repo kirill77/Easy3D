@@ -322,7 +322,7 @@ namespace easy3d {
 	protected:
 
         // rendering. Users can put their additional rendering function here by reimplementing it.
-        virtual void draw() const;
+        virtual void draw();
 
 		// OpenGL resources (e.g., shaders, textures, VAOs) must be created when 
 		// there exists a valid rendering context. It is (usually) a bad idea to do 

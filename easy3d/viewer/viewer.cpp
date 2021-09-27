@@ -1563,7 +1563,7 @@ namespace easy3d {
     }
 
 
-    void Viewer::draw() const {
+    void Viewer::draw() {
         for (const auto m : models_) {
             if (!m->renderer()->is_visible())
                 continue;
